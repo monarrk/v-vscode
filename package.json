@@ -1,0 +1,25 @@
+{
+    "name": "v",
+    "displayName": "v",
+    "description": "Support for the V programming language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "v",
+            "aliases": ["V", "v"],
+            "extensions": [".v"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "v",
+            "scopeName": "text.html.v",
+            "path": "./syntaxes/v.tmLanguage.json"
+        }]
+    }
+}
